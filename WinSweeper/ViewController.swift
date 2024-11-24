@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Minesweeper
-//
-//  Created by Alain Gilbert on 3/10/18.
-//  Copyright © 2018 None. All rights reserved.
-//
-
 import Cocoa
 
 class ViewController: NSViewController {
@@ -14,8 +6,9 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        gameView.flagsLbL = flagsLbl
+        gameView.flagsLbl = flagsLbl
         gameView.timerLbl = timerLbl
+        gameView.safeSqLbl = safeSqLbl
     }
 
     override var representedObject: Any? {
@@ -26,6 +19,7 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var timerLbl: NSTextField!
     @IBOutlet weak var flagsLbl: NSTextField!
+    @IBOutlet weak var safeSqLbl: NSTextField!
     @IBOutlet weak var gameView: GameView!
     
 }
