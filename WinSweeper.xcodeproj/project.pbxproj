@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1150C83F2CE87A7700A83BB2 /* WinSweeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1150C83E2CE87A7700A83BB2 /* WinSweeperTests.swift */; };
+		11C8E9582CE9BF6200D173B1 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C8E9572CE9BF6200D173B1 /* Pair.swift */; };
+		11C8E95A2CE9C1E300D173B1 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C8E9592CE9C1E300D173B1 /* TileView.swift */; };
+		11C8E95C2CE9C55500D173B1 /* GameBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C8E95B2CE9C55500D173B1 /* GameBoard.swift */; };
+		11C8E95E2CEA7BFF00D173B1 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C8E95D2CEA7BFF00D173B1 /* Utils.swift */; };
+		11C8E9602CEA884400D173B1 /* Prob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C8E95F2CEA884400D173B1 /* Prob.swift */; };
+		11F8B57F2CF44F3500CBAD67 /* AutoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F8B57E2CF44F3500CBAD67 /* AutoPlayer.swift */; };
 		A13FFD5020552C3F003AA16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F842622054C4190097D971 /* Assets.xcassets */; };
 		A1F8425F2054C4190097D971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F8425E2054C4190097D971 /* AppDelegate.swift */; };
 		A1F842612054C4190097D971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F842602054C4190097D971 /* ViewController.swift */; };
@@ -15,19 +22,45 @@
 		A1F842712054D4A30097D971 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F842702054D4A30097D971 /* Tile.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1150C8402CE87A7700A83BB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F842532054C4190097D971 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F8425A2054C4190097D971;
+			remoteInfo = WinSweeper;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		A1F8425B2054C4190097D971 /* Minesweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minesweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1150C83C2CE87A7700A83BB2 /* WinSweeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinSweeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1150C83E2CE87A7700A83BB2 /* WinSweeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinSweeperTests.swift; sourceTree = "<group>"; };
+		1150C8452CE9A0F500A83BB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		11C8E9572CE9BF6200D173B1 /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		11C8E9592CE9C1E300D173B1 /* TileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		11C8E95B2CE9C55500D173B1 /* GameBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoard.swift; sourceTree = "<group>"; };
+		11C8E95D2CEA7BFF00D173B1 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		11C8E95F2CEA884400D173B1 /* Prob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prob.swift; sourceTree = "<group>"; };
+		11F8B57E2CF44F3500CBAD67 /* AutoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoPlayer.swift; sourceTree = "<group>"; };
+		A1F8425B2054C4190097D971 /* WinSweeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinSweeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F8425E2054C4190097D971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1F842602054C4190097D971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1F842622054C4190097D971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1F842652054C4190097D971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1F842672054C4190097D971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1F842682054C4190097D971 /* Minesweeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Minesweeper.entitlements; sourceTree = "<group>"; };
+		A1F842682054C4190097D971 /* WinSweeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WinSweeper.entitlements; sourceTree = "<group>"; };
 		A1F8426E2054C4410097D971 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		A1F842702054D4A30097D971 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1150C8392CE87A7700A83BB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1F842582054C4190097D971 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +71,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1150C83D2CE87A7700A83BB2 /* WinSweeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				1150C83E2CE87A7700A83BB2 /* WinSweeperTests.swift */,
+			);
+			path = WinSweeperTests;
+			sourceTree = "<group>";
+		};
 		A1F842522054C4190097D971 = {
 			isa = PBXGroup;
 			children = (
-				A1F8425D2054C4190097D971 /* Minesweeper */,
+				A1F8425D2054C4190097D971 /* WinSweeper */,
+				1150C83D2CE87A7700A83BB2 /* WinSweeperTests */,
 				A1F8425C2054C4190097D971 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,12 +91,13 @@
 		A1F8425C2054C4190097D971 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A1F8425B2054C4190097D971 /* Minesweeper.app */,
+				A1F8425B2054C4190097D971 /* WinSweeper.app */,
+				1150C83C2CE87A7700A83BB2 /* WinSweeperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1F8425D2054C4190097D971 /* Minesweeper */ = {
+		A1F8425D2054C4190097D971 /* WinSweeper */ = {
 			isa = PBXGroup;
 			children = (
 				A1F8425E2054C4190097D971 /* AppDelegate.swift */,
@@ -62,19 +105,44 @@
 				A1F842622054C4190097D971 /* Assets.xcassets */,
 				A1F842642054C4190097D971 /* Main.storyboard */,
 				A1F842672054C4190097D971 /* Info.plist */,
-				A1F842682054C4190097D971 /* Minesweeper.entitlements */,
+				A1F842682054C4190097D971 /* WinSweeper.entitlements */,
 				A1F8426E2054C4410097D971 /* GameView.swift */,
 				A1F842702054D4A30097D971 /* Tile.swift */,
+				1150C8452CE9A0F500A83BB2 /* README.md */,
+				11C8E9572CE9BF6200D173B1 /* Pair.swift */,
+				11C8E9592CE9C1E300D173B1 /* TileView.swift */,
+				11C8E95B2CE9C55500D173B1 /* GameBoard.swift */,
+				11C8E95D2CEA7BFF00D173B1 /* Utils.swift */,
+				11C8E95F2CEA884400D173B1 /* Prob.swift */,
+				11F8B57E2CF44F3500CBAD67 /* AutoPlayer.swift */,
 			);
-			path = Minesweeper;
+			path = WinSweeper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A1F8425A2054C4190097D971 /* Minesweeper */ = {
+		1150C83B2CE87A7700A83BB2 /* WinSweeperTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1F8426B2054C4190097D971 /* Build configuration list for PBXNativeTarget "Minesweeper" */;
+			buildConfigurationList = 1150C8442CE87A7700A83BB2 /* Build configuration list for PBXNativeTarget "WinSweeperTests" */;
+			buildPhases = (
+				1150C8382CE87A7700A83BB2 /* Sources */,
+				1150C8392CE87A7700A83BB2 /* Frameworks */,
+				1150C83A2CE87A7700A83BB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1150C8412CE87A7700A83BB2 /* PBXTargetDependency */,
+			);
+			name = WinSweeperTests;
+			productName = WinSweeperTests;
+			productReference = 1150C83C2CE87A7700A83BB2 /* WinSweeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1F8425A2054C4190097D971 /* WinSweeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F8426B2054C4190097D971 /* Build configuration list for PBXNativeTarget "WinSweeper" */;
 			buildPhases = (
 				A1F842572054C4190097D971 /* Sources */,
 				A1F842582054C4190097D971 /* Frameworks */,
@@ -84,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = Minesweeper;
-			productName = Minesweeper;
-			productReference = A1F8425B2054C4190097D971 /* Minesweeper.app */;
+			name = WinSweeper;
+			productName = WinSweeper;
+			productReference = A1F8425B2054C4190097D971 /* WinSweeper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,10 +163,15 @@
 		A1F842532054C4190097D971 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				ORGANIZATIONNAME = None;
 				TargetAttributes = {
+					1150C83B2CE87A7700A83BB2 = {
+						CreatedOnToolsVersion = 13.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1F8425A2054C4190097D971;
+					};
 					A1F8425A2054C4190097D971 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1330;
@@ -106,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A1F842562054C4190097D971 /* Build configuration list for PBXProject "Minesweeper" */;
+			buildConfigurationList = A1F842562054C4190097D971 /* Build configuration list for PBXProject "WinSweeper" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,12 +192,20 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A1F8425A2054C4190097D971 /* Minesweeper */,
+				A1F8425A2054C4190097D971 /* WinSweeper */,
+				1150C83B2CE87A7700A83BB2 /* WinSweeperTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1150C83A2CE87A7700A83BB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1F842592054C4190097D971 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,6 +218,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1150C8382CE87A7700A83BB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1150C83F2CE87A7700A83BB2 /* WinSweeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1F842572054C4190097D971 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,11 +233,25 @@
 				A1F842612054C4190097D971 /* ViewController.swift in Sources */,
 				A1F8426F2054C4410097D971 /* GameView.swift in Sources */,
 				A1F8425F2054C4190097D971 /* AppDelegate.swift in Sources */,
+				11C8E95C2CE9C55500D173B1 /* GameBoard.swift in Sources */,
 				A1F842712054D4A30097D971 /* Tile.swift in Sources */,
+				11F8B57F2CF44F3500CBAD67 /* AutoPlayer.swift in Sources */,
+				11C8E9602CEA884400D173B1 /* Prob.swift in Sources */,
+				11C8E95A2CE9C1E300D173B1 /* TileView.swift in Sources */,
+				11C8E9582CE9BF6200D173B1 /* Pair.swift in Sources */,
+				11C8E95E2CEA7BFF00D173B1 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1150C8412CE87A7700A83BB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F8425A2054C4190097D971 /* WinSweeper */;
+			targetProxy = 1150C8402CE87A7700A83BB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A1F842642054C4190097D971 /* Main.storyboard */ = {
@@ -162,6 +265,47 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1150C8422CE87A7700A83BB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = none.WinSweeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinSweeper.app/Contents/MacOS/WinSweeper";
+			};
+			name = Debug;
+		};
+		1150C8432CE87A7700A83BB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = none.WinSweeperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinSweeper.app/Contents/MacOS/WinSweeper";
+			};
+			name = Release;
+		};
 		A1F842692054C4190097D971 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -219,6 +363,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -271,6 +416,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -278,14 +424,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Minesweeper/Minesweeper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WinSweeper/WinSweeper.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Minesweeper/Info.plist;
+				INFOPLIST_FILE = WinSweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = agilbert.Minesweeper;
+				PRODUCT_BUNDLE_IDENTIFIER = agilbert.WinSweeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -295,14 +441,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Minesweeper/Minesweeper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WinSweeper/WinSweeper.entitlements;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Minesweeper/Info.plist;
+				INFOPLIST_FILE = WinSweeper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				PRODUCT_BUNDLE_IDENTIFIER = agilbert.Minesweeper;
+				PRODUCT_BUNDLE_IDENTIFIER = agilbert.WinSweeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -311,7 +457,16 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1F842562054C4190097D971 /* Build configuration list for PBXProject "Minesweeper" */ = {
+		1150C8442CE87A7700A83BB2 /* Build configuration list for PBXNativeTarget "WinSweeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1150C8422CE87A7700A83BB2 /* Debug */,
+				1150C8432CE87A7700A83BB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F842562054C4190097D971 /* Build configuration list for PBXProject "WinSweeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1F842692054C4190097D971 /* Debug */,
@@ -320,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1F8426B2054C4190097D971 /* Build configuration list for PBXNativeTarget "Minesweeper" */ = {
+		A1F8426B2054C4190097D971 /* Build configuration list for PBXNativeTarget "WinSweeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1F8426C2054C4190097D971 /* Debug */,

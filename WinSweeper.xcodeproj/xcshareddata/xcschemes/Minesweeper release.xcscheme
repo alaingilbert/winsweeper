@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A1F8425A2054C4190097D971"
-               BuildableName = "Minesweeper.app"
-               BlueprintName = "Minesweeper"
-               ReferencedContainer = "container:Minesweeper.xcodeproj">
+               BuildableName = "WinSweeper.app"
+               BlueprintName = "WinSweeper"
+               ReferencedContainer = "container:WinSweeper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,10 +28,20 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1150C83B2CE87A7700A83BB2"
+               BuildableName = "WinSweeperTests.xctest"
+               BlueprintName = "WinSweeperTests"
+               ReferencedContainer = "container:WinSweeper.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -45,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1F8425A2054C4190097D971"
-            BuildableName = "Minesweeper.app"
-            BlueprintName = "Minesweeper"
-            ReferencedContainer = "container:Minesweeper.xcodeproj">
+            BuildableName = "WinSweeper.app"
+            BlueprintName = "WinSweeper"
+            ReferencedContainer = "container:WinSweeper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A1F8425A2054C4190097D971"
-            BuildableName = "Minesweeper.app"
-            BlueprintName = "Minesweeper"
-            ReferencedContainer = "container:Minesweeper.xcodeproj">
+            BuildableName = "WinSweeper.app"
+            BlueprintName = "WinSweeper"
+            ReferencedContainer = "container:WinSweeper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
